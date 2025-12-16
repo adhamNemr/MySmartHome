@@ -7,6 +7,28 @@ A full-stack IoT home automation system that enables real-time monitoring and co
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
+## 📸 Screenshots
+
+### Dashboard Interface
+![Dashboard UI](screenshots/dashboard-ui.png)
+*Modern, responsive dashboard for controlling smart home devices with real-time sensor data*
+
+### Real-time WebSocket Communication
+![WebSocket Data Stream](screenshots/websocket-realtime-data.png)
+*Live sensor data streaming via WebSocket - temperature, humidity, gas, flame, and motion detection*
+
+### Telegram Bot Integration
+![Telegram Integration](screenshots/telegram-integration.png)
+*Automated Telegram alerts for critical events and remote control capabilities*
+
+### API Endpoints
+![API Endpoint](screenshots/api-endpoint.png)
+*RESTful API handling alerts and device commands*
+
+### IoT Device Code (ESP32/Arduino)
+![ESP32 Code](screenshots/esp32-arduino-code.png)
+*Arduino/ESP32 firmware for sensor integration and WebSocket communication*
+
 ## 🌟 Features
 
 ### Core Functionality
