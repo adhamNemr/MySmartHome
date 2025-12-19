@@ -21,7 +21,11 @@
   "author": "Adham Nemr <adhamnemr@example.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adhamNemr/MySmartHome"
+    "url": "https://github.com/adhamNemr/MySmartHome.git"
+  },
+  "homepage": "https://github.com/adhamNemr/MySmartHome#readme",
+  "bugs": {
+    "url": "https://github.com/adhamNemr/MySmartHome/issues"
   },
   "license": "ISC",
   "type": "commonjs",

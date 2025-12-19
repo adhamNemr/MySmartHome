@@ -139,7 +139,7 @@ npm test
 ## 🌐 Deployment
 
 The application is configured for deployment on platforms like:
-- **Vercel** (Frontend already deployed at: https://smarthome-five-rose.vercel.app)
+- **Vercel** (Optimized for frontend deployment)
 - **Railway** / **Render** (Backend)
 - **Heroku**
 
