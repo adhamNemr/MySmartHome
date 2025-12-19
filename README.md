@@ -10,28 +10,34 @@ A full-stack IoT home automation system that enables real-time monitoring and co
 ## 📸 Screenshots
 
 ### Dashboard Interface
-![Dashboard UI](screenshots/dashboard-ui.png)
-*Modern, responsive dashboard for controlling smart home devices with real-time sensor data*
+
+![Dashboard UI](screenshots/dashboard.png)
+_Modern, responsive dashboard for controlling smart home devices with real-time sensor data_
 
 ### Real-time WebSocket Communication
+
 ![WebSocket Data Stream](screenshots/websocket-realtime-data.png)
-*Live sensor data streaming via WebSocket - temperature, humidity, gas, flame, and motion detection*
+_Live sensor data streaming via WebSocket - temperature, humidity, gas, flame, and motion detection_
 
 ### Telegram Bot Integration
+
 ![Telegram Integration](screenshots/telegram-integration.png)
-*Automated Telegram alerts for critical events and remote control capabilities*
+_Automated Telegram alerts for critical events and remote control capabilities_
 
 ### API Endpoints
+
 ![API Endpoint](screenshots/api-endpoint.png)
-*RESTful API handling alerts and device commands*
+_RESTful API handling alerts and device commands_
 
 ### IoT Device Code (ESP32/Arduino)
+
 ![ESP32 Code](screenshots/esp32-arduino-code.png)
-*Arduino/ESP32 firmware for sensor integration and WebSocket communication*
+_Arduino/ESP32 firmware for sensor integration and WebSocket communication_
 
 ## 🌟 Features
 
 ### Core Functionality
+
 - **Real-time Device Control**: Control smart home devices instantly via WebSocket connections
 - **Multi-Room Management**: Organize and manage devices across different rooms
 - **Sensor Data Logging**: Track and store sensor readings (temperature, humidity, motion, etc.)
@@ -40,6 +46,7 @@ A full-stack IoT home automation system that enables real-time monitoring and co
 - **RESTful API**: Comprehensive API for device management and data retrieval
 
 ### Technical Highlights
+
 - **WebSocket Server**: Bi-directional real-time communication on port 8080
 - **Express Backend**: Robust REST API with proper middleware architecture
 - **Database ORM**: Sequelize for database operations and migrations
@@ -67,6 +74,7 @@ MySmartHome/
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 - SQLite (or your preferred SQL database)
@@ -74,64 +82,77 @@ MySmartHome/
 ### Installation
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/adhamNemr/MySmartHome.git
 cd MySmartHome
 ```
 
 2. **Install dependencies**
+
 ```bash
 npm install
 ```
 
 3. **Configure environment variables**
+
 ```bash
 cp .env.example .env
 # Edit .env with your configuration
 ```
 
 4. **Initialize the database**
+
 ```bash
 node createUser.js  # Create initial admin user
 ```
 
 5. **Start the server**
+
 ```bash
 npm start
 ```
 
 The application will be available at:
+
 - **Web Interface**: http://localhost:3000
 - **WebSocket Server**: ws://localhost:8080
 
 ## 🔧 API Endpoints
 
 ### Authentication
+
 - `POST /api/login` - User authentication
 
 ### Device Management
+
 - `GET /api/devices` - List all devices
 - `POST /api/devices` - Create new device
 - `PUT /api/devices/:id` - Update device
 - `DELETE /api/devices/:id` - Remove device
 
 ### Room Management
+
 - `GET /api/rooms` - List all rooms
 - `POST /api/rooms` - Create new room
 
 ### Sensor Data
+
 - `GET /api/sensors-data` - Retrieve sensor readings
 - `POST /log-sensor` - Log new sensor data
 
 ### System Logs
+
 - `GET /api/logs` - Fetch system logs
 
 ### Commands
+
 - `POST /api/commands` - Send device commands
 
 ## 🧪 Testing
 
 Run the test suite:
+
 ```bash
 npm test
 ```
@@ -139,6 +160,7 @@ npm test
 ## 🌐 Deployment
 
 The application is configured for deployment on platforms like:
+
 - **Vercel** (Optimized for frontend deployment)
 - **Railway** / **Render** (Backend)
 - **Heroku**
@@ -156,6 +178,7 @@ CORS is pre-configured for production deployment.
 ## 📊 Database Schema
 
 The system uses the following main models:
+
 - **User**: Authentication and user management
 - **Device**: Smart device information
 - **Room**: Room organization
@@ -169,6 +192,7 @@ Control your smart home via Telegram bot commands. Configure your bot token in t
 ## 🛠️ Tech Stack
 
 **Backend:**
+
 - Node.js & Express.js
 - WebSocket (ws library)
 - Sequelize ORM
@@ -176,11 +200,13 @@ Control your smart home via Telegram bot commands. Configure your bot token in t
 - JWT for authentication
 
 **Frontend:**
+
 - Vanilla JavaScript
 - HTML5 & CSS3
 - WebSocket client
 
 **Testing:**
+
 - Jest
 
 ## 📝 Environment Variables
@@ -213,6 +239,7 @@ This project is licensed under the ISC License.
 ## 👨‍💻 Author
 
 **Adham Nemr**
+
 - GitHub: [@adhamNemr](https://github.com/adhamNemr)
 - LinkedIn: [Adham Nemr](https://www.linkedin.com/in/adham-nemr)
 
